@@ -17,5 +17,6 @@ exec feh \
   --hide-pointer \
   --slideshow-delay "$DELAY" \
   --randomize \
+  --auto-rotate \
   --auto-zoom \
   "$FRAME_DIR"
