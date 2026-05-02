@@ -1,0 +1,17 @@
+.env
+*.secret
+*.key
+*.pem
+*.p12
+*.crt
+*.log
+
+rclone.conf
+credentials/
+secrets/
+data/
+backup/
+tmp/
+
+.DS_Store
+Thumbs.db

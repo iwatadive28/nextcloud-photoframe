@@ -1,0 +1,5 @@
+# Edit with: crontab -e
+# Use copy if the Raspberry Pi should never delete local files.
+# Use sync only when Nextcloud is the source of truth and local deletions are OK.
+
+*/10 * * * * rclone copy nextcloud:photoframe /home/ubuntu/Pictures/frame --log-file=/home/ubuntu/photoframe-rclone.log --log-level INFO
